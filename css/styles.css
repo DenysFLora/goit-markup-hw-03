@@ -40,6 +40,7 @@ address {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding-left: 15px; padding-right: 15px;
 }
 
 .section {
@@ -50,22 +51,20 @@ address {
 /**===================HEADER======================*/
 
 .header {
-    
+    border-bottom: 1px solid #e7e9fc    
 }
 
 .header-container {
     display: flex;
     gap: 40px;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
-    padding-top: 24px; padding-bottom: 24px;
 }
 
 .header-navigation {
     display: flex;
-    gap: 76px;
     align-items: center;
     flex-grow: 1;
+    padding-top: 24px; padding-bottom: 24px;
 }
 
 .header-logo {
@@ -79,6 +78,7 @@ letter-spacing: 0.03em;
 text-align: left;
 display:flex;
 align-items: center;
+margin-right: 76px
 }
 
 .header-logo-navy {
