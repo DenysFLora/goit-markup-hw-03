@@ -33,13 +33,24 @@ address {
 }
 
 .visually-hidden {
-    overflow: hidden;
-}
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px; padding-right: 15px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    outline: 2px solid red;
 }
 
 .section {
@@ -50,7 +61,8 @@ address {
 /**===================HEADER======================*/
 
 .header {
-    border-bottom: 1px solid #e7e9fc    
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px; padding-bottom: 24px;    
 }
 
 .header-container {
@@ -63,7 +75,6 @@ address {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    padding-top: 24px; padding-bottom: 24px;
 }
 
 .header-logo {
@@ -98,6 +109,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+padding-top: 24px; padding-bottom: 24px;
 }
 
 .header-menu-link:hover, .header-menu-link:focus  {
@@ -187,7 +199,6 @@ background-color: #404BBF;
 }
 .features-item {
     width calc((100% - 3 * 24px) / 4)
-    width: 264px;
 }
 
 .features-subtitles {
@@ -239,6 +250,15 @@ white-space: nowrap;
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
+padding: 0px, 0px, 32px, 0px;
+border-radius: 0px, 0px, 4px, 4px;
+gap: 32px
+
+}
+
+.team-subtitles-text {
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -249,7 +269,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 padding-top: 32px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .team-text {
