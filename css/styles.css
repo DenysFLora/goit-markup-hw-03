@@ -355,11 +355,6 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
-.footer-logo-text {
-display: flex;
-flex-direction: column;
-}
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
@@ -375,10 +370,6 @@ flex-direction: column;
 
 .footer-logo-navy {
     color: #F4F4FD; 
-    }
-
-.made-footer {
-    max-width: 264px;
 }
 
 .footer-text {
