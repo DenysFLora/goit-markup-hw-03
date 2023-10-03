@@ -150,6 +150,12 @@ padding-bottom: 188px;
 padding-top: 188px;
 }
 
+.opening-title-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .opening-title {
 color: #FFFFFF;
 font-size: 56px;
