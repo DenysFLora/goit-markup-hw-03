@@ -40,7 +40,6 @@ address {
 .container {
     width: 1158px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 .section {
