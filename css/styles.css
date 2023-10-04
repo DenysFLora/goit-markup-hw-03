@@ -67,13 +67,11 @@ address {
 
 .header-container {
     display: flex;
-    gap: 40px;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
 }
 
 .header-logo {
@@ -150,12 +148,6 @@ padding-bottom: 188px;
 padding-top: 188px;
 }
 
-.opening-title-btn {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 .opening-title {
 color: #FFFFFF;
 font-size: 56px;
@@ -165,6 +157,7 @@ letter-spacing: 0.02em;
 text-align: center;
 max-width: 496px;
 margin-bottom: 48px;
+margin: 0 auto;
 }
 
 .opening-btn {
@@ -183,7 +176,7 @@ border: none;
 min-width: 169px;
 height: 56px;
 display: block;
-
+margin: 0 auto;
 }
 
 .opening-btn:hover, .opening-btn:focus {
@@ -242,8 +235,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-max-width: 162px;
-margin: 0 auto;
 margin-bottom: 72px;
 white-space: nowrap;
 }
@@ -274,7 +265,6 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-padding-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -283,7 +273,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-padding-bottom: 32px;
 }
 
 /**===============================================*/
@@ -303,8 +292,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-max-width: 218px;
-margin: 0 auto;
 margin-bottom: 72px;
 white-space: nowrap;
 }
@@ -341,8 +328,6 @@ margin-bottom: 8px
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
-padding-bottom: 32px;
 }
 
 /**===============================================*/
